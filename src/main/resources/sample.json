@@ -1,0 +1,104 @@
+{
+    "results": [
+        {
+            "id": "726869263",
+            "type": "page",
+            "status": "current",
+            "title": "Sample Document Approval Control Workflow",
+            "metadata": {
+                "properties": {
+                    "comalaworkflows": {
+                        "id": "879175056",
+                        "key": "comalaworkflows",
+                        "value": {
+                            "workflowName": "Content Review Workflow",
+                            "currentState": "For Review",
+                            "currentStateColour": "#FFAB00",
+                            "currentStateStart": 1674137700117,
+                            "currentStateStartedBy": "com.comalatech.workflow",
+                            "currentStateStartedByInfo": {
+                                "userName": "com.comalatech.workflow",
+                                "displayName": "Comala Document Management",
+                                "profilePicture": {
+                                    "path": "/download/resources/com.comalatech.workflow:workflowResources/images/adhocworkflows-logo-72x72.png"
+                                }
+                            },
+                            "isFinal": "false",
+                            "lastFinalVersionId": 726869263,
+                            "lastFinalVersionNumber": "v12",
+                            "lastFinalVersionDate": 1674137386470,
+                            "hasWorkflow": "true"
+                        },
+                        "version": {
+                            "when": "2023-01-19T14:15:10.163Z",
+                            "message": "",
+                            "number": 1,
+                            "minorEdit": false,
+                            "hidden": false
+                        },
+                        "_links": {
+                            "self": "https://confluence.devops.lloydsbanking.com/rest/api/content/726869263/property/comalaworkflows"
+                        },
+                        "_expandable": {
+                            "content": "/rest/api/content/726869263"
+                        }
+                    },
+                    "_links": {
+                        "self": "https://confluence.devops.lloydsbanking.com/rest/api/content/726869263/property"
+                    },
+                    "_expandable": {
+                        "comalaworkflowsapprovedapprovals": "",
+                        "comalaworkflowsfinishedapprovers": "",
+                        "comalaworkflowslastfinalversionapprovers": "",
+                        "comalaworkflowspendingapprovals": "",
+                        "comalaworkflowsapprovals": "",
+                        "classificationhistory": "",
+                        "comalaworkflowspendingapprovers": "",
+                        "classification": "",
+                        "comalaworflowscurrentmodelversion": "",
+                        "comalaworkflowsrejectedapprovals": "",
+                        "comalaworkflowsglobalmodelversion": ""
+                    }
+                },
+                "_expandable": {
+                    "currentuser": "",
+                    "frontend": "",
+                    "editorHtml": "",
+                    "labels": ""
+                }
+            },
+            "extensions": {
+                "position": "none"
+            },
+            "_links": {
+                "webui": "/display/CCOE/Sample+Document+Approval+Control+Workflow",
+                "edit": "/pages/resumedraft.action?draftId=726869263",
+                "tinyui": "/x/DyVTKw",
+                "self": "https://confluence.devops.lloydsbanking.com/rest/api/content/726869263"
+            },
+            "_expandable": {
+                "container": "/rest/api/space/CCOE",
+                "operations": "",
+                "children": "/rest/api/content/726869263/child",
+                "restrictions": "/rest/api/content/726869263/restriction/byOperation",
+                "history": "/rest/api/content/726869263/history",
+                "ancestors": "",
+                "body": "",
+                "version": "",
+                "descendants": "/rest/api/content/726869263/descendant",
+                "space": "/rest/api/space/CCOE"
+            }
+        }
+    ],
+    "start": 0,
+    "limit": 25,
+    "size": 1,
+    "cqlQuery": "label=\"lccf-v2-99-1-1-1\" and space.key=CCOE",
+    "searchDuration": 703,
+    "totalSize": 1,
+    "_links": {
+        "self": "https://confluence.devops.lloydsbanking.com/rest/api/content/search?expand=metadata.properties.comalaworkflows&cql=label=%22lccf-v2-99-1-1-1%22%20and%20space.key=CCOE",
+        "base": "https://confluence.devops.lloydsbanking.com",
+        "context": ""
+    }
+}
